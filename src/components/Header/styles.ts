@@ -5,8 +5,8 @@ export const HeaderContainer = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 10rem;
-    gap: 51.25rem;
+    /* padding: 2rem 10rem; */
+    /* gap: 51.25rem; */
   }
 
   div {
@@ -26,10 +26,12 @@ const BaseButton = styled.a`
   gap: 0.25rem;
   border-radius: 6px;
   text-decoration: none;
+  height: 2.375rem;
 `
 
 export const LocationButton = styled(BaseButton)`
   background: ${(props) => props.theme['purple-light']};
+  width: 8.9375rem;
 
   color: ${(props) => props.theme['purple-dark']};
   font-size: 0.875rem;
@@ -43,6 +45,7 @@ export const CartButton = styled(BaseButton)`
   background: ${(props) => props.theme['yellow-light']};
   isolation: isolate;
   z-index: 0;
+  width: 2.375rem;
 
   color: ${(props) => props.theme['yellow-dark']};
   font-size: 0.875rem;
