@@ -10,6 +10,22 @@ export const CoffeeCardContainer = styled.div`
   flex-direction: column;
   gap: 1rem;
   padding: 0 1.25rem 1.25rem;
+
+  @media screen and (min-width: 1376px) and (max-width: 1439px) {
+    width: 18.75rem;
+  }
+  @media screen and (min-width: 1312px) and (max-width: 1375px) {
+    width: 17.75rem;
+  }
+  @media screen and (min-width: 1248px) and (max-width: 1311px) {
+    width: 16.75rem;
+  }
+  @media screen and (min-width: 1232px) and (max-width: 1247px) {
+    width: 16.5rem;
+  }
+  @media screen and (min-width: 1025px) and (max-width: 1246px) {
+    width: 16rem;
+  }
 `
 
 export const CoffeeImageContainer = styled.div`
